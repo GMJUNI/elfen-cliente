@@ -1,0 +1,10 @@
+AddonButton < UIButton
+  width: 352
+  height: 68
+
+Panel
+  AddonButton
+    image-source: /modules/game_shop/images/buttonimg/addon_assassin
+    anchors.top: parent.top
+    anchors.left: parent.left
+    @onClick: modules.game_shop.buyAssassin()
